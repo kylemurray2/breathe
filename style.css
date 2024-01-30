@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+    text-color: #edecec;
+    width: 250px;
+
+}
+
+.input-group, .button-group {
+    margin-bottom: 15px;
+    color: #efefef
+
+}
+
+input[type="number"] {
+    width: 30px; /* Adjust this value as needed */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+
+label {
+    margin-right: 10px;
+    text-color: #349900
+
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.status-dialog, .cycle-time-dialog {
+    width: 50%; /* Adjust this value as needed */
+    margin: 20px auto; /* Adds top/bottom margin and centers horizontally */
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #e6e6fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensures the text is centered within the dialog */
+}
+
+h1 {
+    color: #efefef;
+
+}
