@@ -70,7 +70,7 @@ function stopBreathingCycle() {
 
 function playSound(phase) {
     let soundFile = phase === 'inhale' ? 'bell.mp3' : 'woosh.mp3';
-    let sound = new Audio('soundFile');
+    let sound = new Audio(soundFile);
     sound.play();
 }
 
